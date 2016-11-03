@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/framework.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+		<script src="js/navigation.js"></script>
+	</head>
+	<body onload="setMenuBarNavigation()">
+		<header class="header">
+			<div class="menu-hamburguer-icon">
+				<a id="menu" href="#">&#9776;</a>
+			</div>
+			<div class="web-designer col-6 align-right">
+				<h1 class="web-designer-name">Douglas Vidotto</h1>
+				<h2 class="web-designer-nickname">Web Crafter</h2>
+			</div>
+			<div class="logo col-6">
+				<picture>
+					<source media="(min-width:0px) and (max-width: 360px)" 
+							srcset="images/udacity_logo_2-small.png 1x, images/udacity_logo_2-medium.png 2x">
+					<source media="(min-width:361px) and (max-width: 768px)" 
+							srcset="images/udacity_logo_2-medium.png 1x, images/udacity_logo_2-large.png 2x">
+					<img class="udacity-logo" 
+						 srcset="images/udacity_logo_2-large.png 1x, images/udacity_logo_2-large_x2.png 2x" 
+						 src="images/udacity_logo_2-large.png"
+						 alt="Udacity Logo">
+				</picture>
+			</div>
+		</header>
+		<hr>
+		<nav id="menu-links" class="navbar">
+			<ul>
+				<li class="navlinkitem"><a href="about-me.html">About me</a></li>
+			</ul>
+		</nav>
+		<main id="container">
+			<section>
+				<picture>
+					<source media="(min-width:0px) and (max-width: 360px)" 
+							srcset="images/freelancer_presentation-small.jpg 1x, images/freelancer_presentation-medium.jpg 2x">
+					<source media="(min-width:361px) and (max-width: 768px)" 
+							srcset="images/freelancer_presentation-medium.jpg 1x, images/freelancer_presentation-large.jpg 2x">
+					<img class="main-image" 
+						 srcset="images/freelancer_presentation-large.jpg 1x, images/freelancer_presentation-large_x2.jpg 2x" 
+						 src="images/freelancer_presentation-large.jpg"
+						 alt="Computer, Ipad and Smartphone on a table">
+				</picture>
+			</section>
+			<footer>
+				<div class="row">
+					<h3 class="footer-description">Udacity projects</h3>
+				</div>
+				<div class="row udacity-projects">
+					<div class="col-4 featured-work-space center">
+						<picture>
+							<source media="(min-width:0px) and (max-width: 360px)" 
+									srcset="images/chameleon-small.jpg 1x, images/chameleon-medium.jpg 2x">
+							<source media="(min-width:361px) and (max-width: 768px)" 
+									srcset="images/chameleon-medium.jpg 1x, images/chameleon-large.jpg 2x">
+							<img class="rounded-picture" 
+								 srcset="images/chameleon-large.jpg 1x images/chameleon-large_x2.jpg 2x" 
+								 src="images/chameleon-large.jpg" 
+								 alt="Chameleon on a tree">
+						</picture>
+						<p>Animals</p>
+					</div>
+					<div class="col-4 featured-work-space center">
+						<picture>
+							<source media="(min-width:0px) and (max-width: 360px)" 
+									srcset="images/arcade-small.jpg 1x, images/arcade-medium.jpg 2x">
+							<source media="(min-width:361px) and (max-width: 768px)" 
+									srcset="images/arcade-medium.jpg 1x, images/arcade-large.jpg 2x">
+							<img class="rounded-picture" src="images/arcade-large_x2.jpg" alt="Arcade">
+						</picture>
+						<p>Arcade</p>
+					</div>
+					<div class="col-4 featured-work-space center">
+						<picture>
+							<source media="(min-width:0px) and (max-width: 360px)" 
+									srcset="images/gps-small.jpg 1x, images/gps-medium.jpg 2x">
+							<source media="(min-width:361px) and (max-width: 768px)" 
+									srcset="images/gps-medium.jpg 1x, images/gps-large.jpg 2x">
+							<img class="rounded-picture" 
+								 srcset="images/gps-large.jpg 1x, images/gps-large_x2.jpg 2x" 
+								 src="images/gps-large.jpg" 
+								 alt="GPS image">
+						</picture>
+						<p>Map</p>
+					</div>
+				</div>
+			</footer>
+		</main>
+	</body>
+</html>

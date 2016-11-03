@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+	font-size: large;
+	color: #fff;
+	font-family: 'Shadows Into Light', cursive;
+	background-color: #b37e6d;
+}
+
+.menu-hamburguer-icon {
+	display: none;
+}
+
+.logo {
+	float: left;
+}
+
+.udacity-logo {
+	height: 100px;
+	width: 100px;
+}
+
+.web-designer {
+	float: right;
+}
+
+.web-designer-name, .web-designer-nickname {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.web-designer-nickname {
+	font-size: 1em;
+	margin-top: 0;
+}
+
+.navbar, ul {
+	margin-top: 0;
+}
+
+.navlinkitem {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.navlinkitem > a:link, .navlinkitem > a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+.float-right {
+	float: right;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.main-image {
+	width: 100%;
+	box-shadow: 0px 1px 47px 9px rgba(0,0,0,0.75);
+}
+
+section {
+	margin-top: 20px;
+}
+
+hr {
+	clear: both;
+	height: 2px;
+	background-color: #7d97ad;
+	margin-bottom: 0;
+}
+
+.footer-description {
+	color: #FFF;
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+}
+
+.udacity-projects {
+	display: flex;
+}
+
+.featured-work-space {
+	margin-right: 50px;
+}
+
+.rounded-picture {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+.introduction {
+	margin-left: 5px;
+	line-height: 2em;
+}
+
+.profile {
+	margin-left: 7px;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 1.2em;
+	}
+
+	.web-designer {
+		text-align: left;
+		float: left;
+		font-size: 0.65em;
+		margin-left: 10px;
+	}
+
+	.web-designer-name {
+		margin-top: 5px;
+	}
+
+	.logo {
+		width: 100%;
+		margin-top: 25px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.navbar {
+		position: absolute;
+		transform: translate(-500px, 0);
+		transition: transform 0.5s ease;
+	}
+	.navlinkitem {
+		display: block;
+	}
+
+	.menu-hamburguer-icon {
+		display: inline;
+		float: right;
+	}
+
+	.menu-hamburguer-icon > a {
+		color: #FFF;	
+		font-size: 1.8em;
+		text-decoration: none;
+		margin-right: 10px;
+	}
+
+	.udacity-projects {
+		display: block;
+	}
+
+	.featured-work-space {
+		width: 100%;
+	}
+
+	.navbar.show-menu {
+		position: relative;
+		transform: translate(0px, 0px);
+		text-align: center;
+		width: 100%;
+		font-size: 2em;
+	}
